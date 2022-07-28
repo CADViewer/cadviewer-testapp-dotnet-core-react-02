@@ -15,7 +15,7 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 4a:  If needed, edit ClientApp/src/index.js to either omit or include: ***CADViewerHelperMethods.js***.
 
-5: The folder structure for dotNet core script handlers for communication between CADViewer and the back-end AutoXchange 2023. The controller for load, save and conversion of CAD files are implemented in:  ***CADViewerController.cs***.
+5: The folder structure for dotNet core script handlers for communication between CADViewer and the back-end AutoXchange 2023. The controlling scripts for load, save and conversion of CAD files are implemented in:  ***CADViewerController.cs***.
 
 
 ## This package does not contain
