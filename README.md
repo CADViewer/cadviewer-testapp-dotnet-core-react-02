@@ -1,7 +1,7 @@
 # cadviewer-testapp-dotnet-core-react-02
-CADViewer 7 running under .NET 6 -
+CADViewer 7 running under Asp .NET 6 core 
 
-The repository contains a full setup of CADViewer with CAD Converters and script controllers for Asp .Net 6 Core with React front-ennd.
+The repository contains a full setup of CADViewer with CAD Converters and script controllers for Asp .Net 6 Core with a React front-end.
 
 ## This package contains
 
