@@ -13,7 +13,7 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 4: ClientApp/src/index.js invokes helper script documents with CADViewer.js (CADViewer canvas initialization), script document with helper methods for testing the API (CADViewerHelperMethods.js).
 
-     4a:  Edit ClientApp/src/index.js to run: CADViewerHelperMethods.js
+4a:  If needed, edit ClientApp/src/index.js to either omit or include: ***CADViewerHelperMethods.js***.
 
 5: The folder structure for dotNet core script handlers for communication between CADViewer and the back-end AutoXchange 2023.
 
