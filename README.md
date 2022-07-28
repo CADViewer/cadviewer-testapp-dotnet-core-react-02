@@ -11,11 +11,11 @@ The repository contains a full setup of CADViewer with CAD Converters and script
 
 3: All structures for file-conversion, sample drawings, redlines, etc. 
 
-4: ClientApp/src/index.js invokes helper script documents with CADViewer.js (CADViewer canvas initialization), script document with helper methods for testing the API (CADViewerHelperMethods.js).
+4: ClientApp/src/index.js invokes helper script documents with ***CADViewer.js*** (CADViewer canvas initialization), script document with helper methods for testing the API (***CADViewerHelperMethods.js***).
 
 4a:  If needed, edit ClientApp/src/index.js to either omit or include: ***CADViewerHelperMethods.js***.
 
-5: The folder structure for dotNet core script handlers for communication between CADViewer and the back-end AutoXchange 2023.
+5: The folder structure for dotNet core script handlers for communication between CADViewer and the back-end AutoXchange 2023. The controller for load, save and conversion of CAD files are implemented in:  ***CADViewerController.cs***.
 
 
 ## This package does not contain
@@ -51,7 +51,7 @@ Once installed, open cadviewer.sln in Visual Studio.  The sample can be run from
 8: Open /ClientApp/src/  CADViewer.js and CADViewerHelperMethods.js and edit any Url definitions so they correspond to the server settings.  
 
     var ServerBackEndUrl = "https://localhost:44476/";
-		var ServerUrl = "https://localhost:44476/";
+    var ServerUrl = "https://localhost:44476/";
 
 
 
